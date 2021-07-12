@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>body {text-align:center; background-color: green;font-size: 200%;}</style>
+  
+</head>
+<body>
+  <p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "my name is kiran";
+}
+</script>
+</script>
+<div> Name: <input/> <button onclick="myFunction()">say hello</button> </div>
+</body>
+</html>
